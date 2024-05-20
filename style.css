@@ -1,0 +1,391 @@
+h1{
+    color: rgb(2, 10, 17);
+    background-color: rgb(233, 156, 54);
+    padding: 5px;
+    margin-bottom: 1%;
+    margin-left: -1%;
+    margin-right:-2%;
+    margin-top: 0%;
+    padding: 3%;
+}
+h3{
+    color: rgb(2, 10, 17);
+    background-color: rgb(229, 107, 8);
+    padding: 5px;
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-right:-2%;
+    margin-bottom: 2%;
+    
+}
+header{
+    margin-top: -2%;
+}
+h2{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin-top: -2%;
+    margin-bottom:5%;
+    margin-left: -1%;
+    margin-right:-2%;
+    font-size:200%;
+    padding: 5%;
+}
+#Categories{
+    display: grid;
+    text-align: center;
+    text-justify: auto;
+    background-size: contain;
+    grid-template-columns: 30% 30% 30%;
+    background-color: burlywood;
+    text-emphasis-color: white;
+
+    padding: 25px;
+    gap:25px;
+    margin-left: -2%;
+    margin-bottom: 15%;
+    margin-top: -5%;
+    margin-right: -2%;
+}
+#Categories >div{
+    background-color:rgb(0, 0, 0);
+    border: 5px solid rgb(247, 245, 245);
+    border-radius: 4px;
+    padding: 2px;
+   
+    text-align-last: center;
+   
+    grid-template: minmax(1);
+    color: aliceblue;
+    margin-left: 20%;
+    margin-bottom: 15%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+#kidswear {
+    display: grid;
+    text-align: center;
+    text-justify: auto;
+    background-size: contain;
+    grid-template-columns: 30% 30% 30%;
+    background-color: burlywood;
+    text-emphasis-color: white;
+
+    padding: 25px;
+    gap:25px;
+    margin-left: -2%;
+    margin-bottom: 15%;
+    margin-top: -5%;
+    margin-right: -2%;
+}
+#kidswear >div{
+    background-color:rgb(0, 0, 0);
+    border: 5px solid rgb(17, 17, 17);
+    border-radius: 4px;
+    padding: 2px;
+   
+    text-align-last: center;
+   
+    grid-template: minmax(1);
+    color: aliceblue;
+    margin-left: 20%;
+    margin-bottom: 15%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+#traditional{
+    display: grid;
+    text-align: center;
+    text-justify: auto;
+    background-size: contain;
+    grid-template-columns: 30% 30% 30%;
+    background-color: burlywood;
+    text-emphasis-color: white;
+
+    padding: 25px;
+    gap:25px;
+    margin-left: -2%;
+    margin-bottom: 15%;
+    margin-top: -5%;
+    margin-right: -2%;
+}
+#traditional >div{
+    background-color:rgb(0, 0, 0);
+    border: 5px solid rgb(17, 17, 17);
+    border-radius: 4px;
+    padding: 2px;
+   
+    text-align-last: center;
+   
+    grid-template: minmax(1);
+    color: aliceblue;
+    margin-left: 20%;
+    margin-bottom: 15%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+#casuals{
+    display: grid;
+    text-align: center;
+    text-justify: auto;
+    background-size: contain;
+    grid-template-columns: 30% 30% 30%;
+    background-color: burlywood;
+    text-emphasis-color: white;
+
+    padding: 25px;
+    gap:25px;
+    margin-left: -2%;
+    margin-bottom: 15%;
+    margin-top: -5%;
+    margin-right: -2%;
+}
+#casuals >div{
+    background-color:rgb(0, 0, 0);
+    border: 5px solid rgb(17, 17, 17);
+    border-radius: 4px;
+    padding: 2px;
+   
+    text-align-last: center;
+   
+    grid-template: minmax(1);
+    color: aliceblue;
+    margin-left: 20%;
+    margin-bottom: 15%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+#dresses{
+    display: grid;
+    text-align: center;
+    text-justify: auto;
+    background-size: contain;
+    grid-template-columns: 30% 30% 30%;
+    background-color: burlywood;
+    text-emphasis-color: white;
+
+    padding: 25px;
+    gap:25px;
+    margin-left: -2%;
+    margin-bottom: 15%;
+    margin-top: -5%;
+    margin-right: -2%;
+}
+#dresses >div{
+    background-color:rgb(0, 0, 0);
+    border: 5px solid rgb(17, 17, 17);
+    border-radius: 4px;
+    padding: 2px;
+   
+    text-align-last: center;
+   
+    grid-template: minmax(1);
+    color: aliceblue;
+    margin-left: 20%;
+    margin-bottom: 15%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+#sarees{
+    display: grid;
+    text-align: center;
+    text-justify: auto;
+    background-size: contain;
+    grid-template-columns: 30% 30% 30%;
+    background-color: burlywood;
+    text-emphasis-color: white;
+
+    padding: 25px;
+    gap:25px;
+    margin-left: -2%;
+    margin-bottom: 15%;
+    margin-top: -5%;
+    margin-right: -2%;
+}
+#sarees >div{
+    background-color:rgb(0, 0, 0);
+    border: 5px solid rgb(17, 17, 17);
+    border-radius: 4px;
+    padding: 2px;
+   
+    text-align-last: center;
+   
+    grid-template: minmax(1);
+    color: aliceblue;
+    margin-left: 20%;
+    margin-bottom: 15%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+#night{
+    display: grid;
+    text-align: center;
+    text-justify: auto;
+    background-size: contain;
+    grid-template-columns: 30% 30% 30%;
+    background-color: burlywood;
+    text-emphasis-color: white;
+
+    padding: 25px;
+    gap:25px;
+    margin-left: -2%;
+    margin-bottom: 15%;
+    margin-top: -5%;
+    margin-right: -2%;
+}
+#night >div{
+    background-color:rgb(0, 0, 0);
+    border: 5px solid rgb(17, 17, 17);
+    border-radius: 4px;
+    padding: 2px;
+   
+    text-align-last: center;
+   
+    grid-template: minmax(1);
+    color: aliceblue;
+    margin-left: 20%;
+    margin-bottom: 15%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+img{
+    margin-top: 5%;
+    width: 85%;
+    height: 80%;
+    border-radius: 4px;
+    margin-left:5%;
+    margin-right: 5%;
+}
+button{
+    color: #000000;
+    background-color: rgb(255, 102, 0);
+    padding: 2%;
+    border-radius: 4px;
+    gap: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    margin-top: -100%;
+    cursor: pointer;
+}
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+    
+  }
+ .fafa-bars{
+    margin-bottom: 20%;
+    margin-top: 60%;
+ }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+
+  #main {
+    transition: margin-left .5s;
+    padding: 2px;
+    margin-top: -25%;
+    background-color: #f1f1f1;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  #cartItems {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#cartItems div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    background-color: rgb(253, 239, 202);
+    border-radius: 4px;
+}
+
+#cartItems img {
+    width: 100px;
+    height: 100px;;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    
+    margin-left: 150px;
+}
+
+#cartItems p {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+#cartItems button {
+    background-color: #ff4c4c;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#cartItems button:hover {
+    background-color: #ff1a1a;
+}
+
+/* Cart Summary Styles */
+#totalItems, #totalPrice {
+    font-weight: bold;
+    background-position: 10%;
+    text-align: center;
+    color: rgb(234, 135, 7);
+    
+}
+#total{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    font-size: 150%;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Wear</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="kidswear.html">Kids Wear</a>
+        <a href="Traditional.html">Traditional</a>
+        <a href="Casuals.html">Casuals</a>
+        <a href="Dresses.html">Dresses</a>
+        <a href="Sarees.html">Sarees</a>
+        <a href="Night.html">Night</a>
+        <a href="cart.html">My Cart (<span id="cartCount">0</span>)</a>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <span onclick="openNav()"><button class="btn"><i class="fa fa-bars"></i></button></span>
+      
+    <div id="main"></div>
+    <center>
+        <header><br>
+            <h1>Welcome Kids Shopping</h1>
+            <br>
+        </header>
+    </center>
+    <h2>Lowest price With High Discounts</h2>
+    
+    <div id="kidswear">
+        <div id="kids1">
+            <img src="https://image.made-in-china.com/202f0j00pQPGrDVEoYol/Pretty-Child-Little-Girl-Wedding-Dress-Formal-Party-Dresses-Kids-Wear.jpg">
+            <p>kidswear Pure cotton Dress at <b>Rs.399</b></p>
+            <button onclick="addToCart('kidswear Pure cotton Dress', 399, 'https://image.made-in-china.com/202f0j00pQPGrDVEoYol/Pretty-Child-Little-Girl-Wedding-Dress-Formal-Party-Dresses-Kids-Wear.jpg')"><b>Add To Cart</b></button>
+            <button><b>Buy Now</b></button>
+        </div>
+        <div id="kids2">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/2/XY/XC/KW/148088711/fancy-kids-wear.jpg">
+            <p>kidswear Silk Dress at <b>Rs.499</b></p>
+            <button onclick="addToCart('kidswear Silk Dress', 499, 'https://5.imimg.com/data5/SELLER/Default/2022/2/XY/XC/KW/148088711/fancy-kids-wear.jpg')"><b>Add To Cart</b></button>
+            <button><b>Buy Now</b></button>
+        </div>
+        <div id="kids3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBWl01v8gMNk7Zedo9xD5v-7nx9ZKiOXQSyA&usqp=CAU">
+            <p>kidswear cotton Blent Dress at <b>Rs.499</b></p>
+            <button onclick="addToCart('kidswear cotton Blent Dress', 499, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBWl01v8gMNk7Zedo9xD5v-7nx9ZKiOXQSyA&usqp=CAU')"><b>Add To Cart</b></button>
+            <button><b>Buy Now</b></button>
+        </div>
+    </div>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</body>
+</html>
